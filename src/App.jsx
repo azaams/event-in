@@ -8,7 +8,7 @@ import { CreateEventDialog } from "./components/create-event-dialog";
 import { EventDetailsDialog } from "./components/event-details-dialog";
 import { ThemeToggle } from "./components/theme-toggle";
 
-const API_URL = "http://localhost/event-in/api/api.php";
+const API_URL = "http://localhost:8080/event-in/api/api.php";
 
 function App() {
   const [currentDate, setCurrentDate] = useState(new Date());
